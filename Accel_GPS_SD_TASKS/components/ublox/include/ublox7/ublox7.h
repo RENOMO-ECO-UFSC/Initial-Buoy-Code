@@ -21,8 +21,8 @@
 #include "esp_err.h"
 #include "driver/uart.h"
 
-#define UB7_RXD GPIO_NUM_17
-#define UB7_TXD GPIO_NUM_16
+#define UB7_RXD GPIO_NUM_26
+#define UB7_TXD GPIO_NUM_25
 #define UB7_EN GPIO_NUM_4 
 #define UB7_PPS GPIO_NUM_2
 

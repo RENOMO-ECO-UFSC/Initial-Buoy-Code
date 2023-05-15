@@ -100,6 +100,7 @@ esp_err_t SDcard::s_example_write_file(const char *path, char *data)
         return ESP_FAIL;
     }
     fprintf(f, data);
+    
     fclose(f);
     ESP_LOGI(TAG, "File written");
     return ESP_OK;
